@@ -1,0 +1,14 @@
+{
+  "name": "artefact-slides",
+  "version": "1.0.0",
+  "description": "Artefact Slides — protected static server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
