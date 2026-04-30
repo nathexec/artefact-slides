@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 3000;
 // Set JWT_SECRET in your environment for persistence across restarts.
 const JWT_SECRET = process.env.JWT_SECRET || require('crypto').randomBytes(32).toString('hex');
 
-const AUTH_USERNAME = process.env.AUTH_USERNAME || 'admin';
-const AUTH_PASSWORD = process.env.AUTH_PASSWORD || 'password';
+const AUTH_USERNAME = process.env.AUTH_USERNAME;
+const AUTH_PASSWORD = process.env.AUTH_PASSWORD;
 
 const COOKIE_NAME = 'artefact_session';
 const COOKIE_MAX_AGE = 8 * 60 * 60 * 1000; // 8 hours in ms
